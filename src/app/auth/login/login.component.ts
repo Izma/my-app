@@ -6,6 +6,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./login.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
+
 export class LoginComponent implements OnInit {
 
   constructor() { }
@@ -13,4 +14,7 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
 
+  login(): void {
+    alert('Click on login');
+  }
 }
